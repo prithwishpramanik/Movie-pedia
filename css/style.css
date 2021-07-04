@@ -13,3 +13,62 @@ div#gutter {
 .container {
     overflow-x: hidden;
 }
+
+h1#title {
+    margin-left: 1rem;
+}
+
+#year{
+    margin-left: 1rem;
+
+}
+
+.left {
+    float: left;
+    width: 40%;
+    text-align: center;
+
+}
+
+.middle {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.right {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+span#rating {font-weight: bolder;font-size: x-large;}
+span#imr {
+    font-size: larger;
+    font-weight: bolder;
+    color: darkgray;
+}
+
+#rvo{
+    font-size: larger;
+    font-weight: bolder;
+    color: darkgray;
+}
+#vote{
+    font-weight: bolder;font-size: x-large;
+}
+
+#imid{
+    font-size: larger;
+    font-weight: bolder;
+    color: darkgray;
+}
+
+#id{
+    font-weight: bolder;font-size: x-large;
+
+}
+
+img#img {
+    width: 60%;
+    margin-left: 10px;
+}
