@@ -69,3 +69,8 @@ span#imr {
 }
 
 .info {font-weight: bolder;color: gray;font-size: large;}
+
+
+#desp{
+    border-bottom: 1px solid white;
+}

@@ -19,10 +19,18 @@ $("document").ready(function(){
             $('#title').text(response.title);
             $('#year').text(response.year);
             $('#rating').text(response.rating);
-            $('#rvo').text(response.rating_votes);
+            $('#vote').text(response.rating_votes);
             $('#id').text(response.id);
             $('#poster').attr("src",response.poster);
             $('#video').attr("src","https://www.imdb.com/video/imdb/"+response.trailer.id+"/imdb/embed?");
+            $('#desp').text(response.plot);
+            $('#hero').text(response.cast[0].actor);
+            $('#hero').attr("href","https://en.wikipedia.org/wiki/"+response.cast[0].actor);
+            $('#heroin').text(response.cast[1].actor);
+            $('#heroin').attr("href","https://en.wikipedia.org/wiki/"+response.cast[1].actor);
+            $('#hero1').text(response.cast[2].actor);
+            $('#hero1').attr("href","https://en.wikipedia.org/wiki/"+response.cast[2].actor);
+
 
         });
     })
