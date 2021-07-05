@@ -22,7 +22,8 @@ $("document").ready(function(){
             $('#rvo').text(response.rating_votes);
             $('#id').text(response.id);
             $('#poster').attr("src",response.poster);
-            $('#video').attr("src",response.trailer.link);
+            $('#video').attr("src","https://www.imdb.com/video/imdb/"+response.trailer.id+"/imdb/embed?");
+
         });
     })
 
