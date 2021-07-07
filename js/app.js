@@ -15,6 +15,8 @@ $("document").ready(function(){
         };
 
         $.ajax(settings).done(function (response) {
+
+
             console.log(response);
             $('#title').text(response.title);
             $('#year').text(response.year);
@@ -30,9 +32,11 @@ $("document").ready(function(){
             $('#heroin').attr("href","https://en.wikipedia.org/wiki/"+response.cast[1].actor);
             $('#hero1').text(response.cast[2].actor);
             $('#hero1').attr("href","https://en.wikipedia.org/wiki/"+response.cast[2].actor);
+            $('#run').text("Runtime " +response.technical_specs[0][1]);
+            $('#main').css({"display":"block"});
 
 
-        });
+        }).catch(error => alert('some error occured', error));;
     })
 
 
