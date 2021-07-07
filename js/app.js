@@ -1,5 +1,8 @@
 $("document").ready(function(){
+
     $('#button').click(function(){
+        $('#main').css({"display":"none"});
+        $("#overlay").fadeIn(300);
         let text = $('#text').val();
         console.log(text);
 
@@ -36,7 +39,10 @@ $("document").ready(function(){
             $('#main').css({"display":"block"});
 
 
-        }).catch(error => alert('some error occured', error));;
+        }).done(function() {
+            setTimeout(function(){
+                $("#overlay").fadeOut(300);
+            },300);}).catch(error => alert('some error occured', error));;
     })
 
 
