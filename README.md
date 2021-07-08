@@ -1,8 +1,8 @@
-# 🎦Movie-pedia🎥🎞🎬
-- It is a website Where one can find the details of any movie that had been made till date.
-- you can get different IMDb information  about the movie you search
-- you will be geting different informations such as the <b>IMDb rating</b> of that movie,<b>Rating Vote</b>,<b>IMDb rating</b>,<b>description of the movie</b>
-- you can also view the poster of the movie & the trailler of the movie.
+# 🎦Movie-Pedia🎥🎞🎬
+- It is a website Where one can find the details of any movie that had been made to date.
+- you can get different IMDb information about the movie you search
+- for you will be getting different pieces of information such as the IMDb rating of that movie, Rating Vote, IMDb rating, description of the movie
+- you can also view the poster of the movie & the trailer of the movie.
 - It is made using HTML5,Css,Bootstrap V5.0,javascript,jQuery
 - API used - https://rapidapi.com/hmerritt/api/imdb-internet-movie-database-unofficial/
 # How It Works ⚙
