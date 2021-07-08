@@ -10,6 +10,7 @@
 - It fetches the name you enter and calls the api and fetches all the data related  to the disired movie.
 - then displays the data.
 # Glimpse of the project📸
+<img src="Screenshot (295).png">
 
 # Find live project👇
 https://prithwishpramanik.github.io/Movie-pedia/
