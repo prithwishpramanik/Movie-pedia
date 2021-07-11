@@ -1,4 +1,4 @@
-# 🎦Movie-Pedia🎥🎞🎬
+# 🎦Movie-Pedia🎥🎞🎬<img src="https://img.shields.io/website?down_color=red&style=for-the-badge&url=https://prithwishpramanik.github.io/Movie-pedia/" alt="counter" align="right"/>
 - It is a website Where one can find the details of any movie that had been made to date.
 - you can get different IMDb information about the movie you search
 - for you will be getting different pieces of information such as the IMDb rating of that movie, Rating Vote, IMDb rating, description of the movie
